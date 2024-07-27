@@ -26,7 +26,7 @@ const WishCard = (props) => {
                 </IconButton>
             </div>
             <div className="wish__item__image">
-                <img src={`${API_URL}/${props.item.category}/${props.item.image[0].filename}`} alt="item" className="wish__image"/>
+                <img src={`${API_URL}/public/${props.item.category}/${props.item.image[0].filename}`} alt="item" className="wish__image"/>
             </div>
             <div className="wish__item__name">{props.item.name}</div>
             <div className="wish__item__price">${props.item.price}</div>
